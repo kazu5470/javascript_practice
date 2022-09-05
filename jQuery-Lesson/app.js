@@ -1,20 +1,22 @@
+$(function(){
+  $('.box1').on('click', function(){
+    $(this).slideUp();
+  });
+});
 // $(function(){
-//     $('.box1').slideDown(1000,function(){
-//         $('.box1').css({
-//             'background-color': '#0000FF',
-//             'width': '200px',
-//             'height': '100px'
-//         }).slideUp(2000);
+//     $('.bg1').on('click', function(){
+//         $(this).slideUp();
 //     });
+    
+    // $('.bg2').on('click', function(){
+    //     $('.bg2').slideUp();
+    // });
+    
+    // $('.bg3').on('click', function(){
+    //     $('.bg3').slideUp();
+    // });
+    
+    // $('.bg4').on('click', function(){
+    //     $('.bg4').slideUp();
+    // });
 // });
-
-$(function(){
-    $('.box1').on('click', function(){
-        $('.box1').addClass('box1-ext');
-    });
-});
-$(function(){
-    $('.box1').mouseout(function(){
-        $('.box1').removeClass('box1-ext');
-    });
-});
